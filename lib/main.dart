@@ -100,7 +100,7 @@ class _HomePageState extends State<HomePage> {
 
   getRootDirectory() async {
     TextToSpeechService textToSpeechService =
-        TextToSpeechService('AIzaSyCQPM28xcKEvFbP_v-HX8beigBiXVnhIaA');
+        TextToSpeechService('API KEY');
     File mp3;
     try {
       mp3 = await textToSpeechService.textToSpeech(
